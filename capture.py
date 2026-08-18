@@ -6,7 +6,7 @@ import urllib.request
 from datetime import datetime
 
 DEFAULT_URL = os.environ.get("REMNOTE_SERVER_URL", "http://127.0.0.1:7788/mcp").strip()
-TOKEN = os.environ.get("REMNOTE_TOKEN", "").strip() or "rn_mcp_kG0Stj6GgsLmk5iZ0L8WexNQU6osk1DWtkxa_FqxhuE"
+TOKEN = os.environ.get("REMNOTE_TOKEN", "").strip()
 
 def call_tool(name, args):
     payload = {

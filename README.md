@@ -5,33 +5,36 @@
 </p>
 
 <p align="center">
-  <b>Lightning-fast search, quick capture, and note navigation for RemNote Desktop in Alfred 5.</b><br>
-  为 RemNote 桌面端打造的原生极速 Alfred 5 工作流，毫秒级本地直连。
+  <b>Lightning-fast search, quick capture, and note navigation for RemNote Desktop in Alfred 5.</b>
+</p>
+
+<p align="center">
+  <a href="README.md">English</a> • <a href="README_zh.md">简体中文</a>
 </p>
 
 ---
 
-## ✨ Features (功能特性)
+## Features
 
-- 🔍 **`rns <keyword>`**: Real-time script filter searching your active RemNote knowledge base. Press `Enter` to instantly open that note in RemNote. (即时搜索笔记，回车秒开对应文档)
-- ⚡️ **`rn <content>` / `rnc <content>`**: Quick capture a thought or task directly appended to today's Daily Note with system notification confirmation. (闪念速记一键追加到今日 Daily Note)
-- 🕒 **`rnr`**: Browse and filter recently edited documents from the past 14 days. (查看最近编辑过的笔记)
+- 🔍 **`rns <keyword>`**: Real-time script filter searching your active RemNote knowledge base. Press `Enter` to instantly open that note in RemNote.
+- ⚡️ **`rn <content>` / `rnc <content>`**: Quick capture thoughts or tasks directly appended to today's Daily Note with system notification confirmation.
+- 🕒 **`rnr`**: Browse and filter recently edited documents from the past 14 days.
 
 ---
 
-## 🔑 Where to Find Your RemNote Token (如何获取 Token)
+## Where to Find Your RemNote Token
 
 This workflow connects directly to your **running RemNote Desktop Application** via its local embedded MCP server (`http://127.0.0.1:7788/mcp`).
 
-1. Open **RemNote Desktop App** (打开 RemNote 桌面端).
-2. Click **Settings ⚙️** in the bottom-left sidebar (or press `Cmd/Ctrl + ,`).
-3. In the left settings navigation, scroll down and click **Developer** (or **Integrations** / **Model Context Protocol**).
+1. Open **RemNote Desktop App** (must be the desktop application).
+2. Click **Settings ⚙️** in the bottom-left sidebar (or press `Cmd + ,`).
+3. In the left navigation, scroll down and click **Developer** (or **Integrations** / **Model Context Protocol**).
 4. Make sure **Local MCP Server** is enabled.
-5. Copy the **Bearer Token** (it starts with `rn_mcp_...`).
+5. Copy the **Bearer Token** (starts with `rn_mcp_...`).
 
 ---
 
-## 🚀 Installation & Setup (安装与配置)
+## Installation & Setup
 
 ### Step 1: Download & Install
 Download [`RemNote.alfredworkflow`](RemNote.alfredworkflow) and double-click to install it in Alfred 5.
@@ -43,7 +46,7 @@ Upon installing (or by clicking the `[x]` button in Alfred Preferences -> Workfl
 
 ---
 
-## ⚡️ Keyboard Shortcuts (使用指令)
+## Keyboard Shortcuts
 
 | Keyword | Description | Action |
 | :--- | :--- | :--- |
@@ -54,6 +57,6 @@ Upon installing (or by clicking the `[x]` button in Alfred Preferences -> Workfl
 
 ---
 
-## 📄 License
+## License
 
 MIT License © 2026 [bianyeyu](https://github.com/bianyeyu)
